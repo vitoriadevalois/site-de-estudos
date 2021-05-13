@@ -1,2 +1,15 @@
 ! + Enter = cria automaticamente o doctype html.
+
 &lt; elemento &gt;  = mostra o elemento entre < e /> conforme o próprio comando.
+
+<!--elemento--> = tudo contido como elemento vira comentário.
+
+para copiar da internet uma imagem, copie o endereço a imagem.
+
+favicom - encontrar ícone para a página
+
+iconarchive - para encontrar ícones e baixar ICO
+favicom.cc -> você desenha seus próprios ícones.
+favicom.io -> texto vira ico, png vira ico, favicom vira ícone.
+
+hierarquia de títulos - <h1> <h2> <h3> <h4> <h5> <h6>
