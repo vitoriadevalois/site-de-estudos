@@ -6,10 +6,18 @@
 
 para copiar da internet uma imagem, copie o endereço a imagem.
 
-favicom - encontrar ícone para a página
+favicon - ícone da página
 
 iconarchive - para encontrar ícones e baixar ICO
-favicom.cc -> você desenha seus próprios ícones.
-favicom.io -> texto vira ico, png vira ico, favicom vira ícone.
+favicon.cc -> você desenha seus próprios ícones.
+favicon.io -> texto vira ico, png vira ico, favicom vira ícone.
 
 hierarquia de títulos - <h1> <h2> <h3> <h4> <h5> <h6>
+
+<address> </address> - significa endereço
+
+<br> - quebra de texto
+
+&nbsp; - espaço na linha
+
+com alt conseguimos selecionar mais de um elemento e alterar de uma vez
