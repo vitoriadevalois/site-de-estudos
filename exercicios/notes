@@ -1,5 +1,7 @@
 ! + Enter = cria automaticamente o doctype html.
 
+PARA ENVELOPAR: Ctrl Shift P
+
 &lt; elemento &gt;  = mostra o elemento entre < e /> conforme o próprio comando.
 
 <!--elemento--> = tudo contido como elemento vira comentário.
