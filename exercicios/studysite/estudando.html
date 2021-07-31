@@ -6,12 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/book.ico" type="icon">
     <title>Estudando</title>
-    <style>
-        mark {
-            background-color: lime;
-        }
-    </style>
-    
+    <link rel="stylesheet" href="estiloestudando.css">
 </head>
 <body>
     <h1>Estudando HTML</h1>
@@ -164,6 +159,27 @@
     <!--PARA PEGAR UM VÍDEO DE FORA, INCORPORE A PARTIR DO "COMPARTILHAR"-->
     <h2>Inserindo vídeos do YouTube</h2>
     <iframe width="560" height="350" src="https://www.youtube.com/embed/4gmrHQa7fEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-
+    <br>
+    <h2>Estilo CSS inline</h2>
+    <p style="font-family: Arial, Helvetica, sans-serif; color: blueviolet;">Trata-se de uma alteração feita na linha. Tem a desvantagem de que você terá que alterar toda linha uma por uma e isso polui o seu documento.</p>
+    <br>
+    <h2>Cores em CSS</h2>
+    <!--Representação por nomes-->
+    <p style="background-color: blue; color:white;">Exemplos de cores</p>
+    <p>Representação de cores utilizando nomes das cores.</p>
+    <!--Representação por códigos hexadecimais-->
+    <!--Decimal: 0 1 2 3 4 5 6 7 8 9-->
+    <!--Hexadecimal: 0 1 2 3 4 5 6 7 9 A B C D E F-->
+    <p style="background-color: #0000FF; color: #ffffff;">Exemplos de cores</p>
+    <p>Representação de cores utilizando códigos hexadecimais.
+    </p>
+    <p>Decimal: 0 1 2 3 4 5 6 7 8 9</p>
+    <p>Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F</p>
+    <!--Representação por RGB-->
+    <p style="background-color: rgb(0, 0, 255); color:rgb(255, 255, 255);">Exemplos de cores</p>
+    <p>Representação de cores através de RGB.</p>
+    <!--Representação através de HSL-->
+    <p style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de cores</p>
+    <p>Representação de cores através de HSL.</p>
 </body>
 </html>
