@@ -9,177 +9,178 @@
     <link rel="stylesheet" href="estiloestudando.css">
 </head>
 <body>
-    <h1>Estudando HTML</h1>
-    <hr>
-    <h2>Parágrafos</h2>
-    <p>Você pode escrever um paragráfo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;.
-    </p> <!--Comentário escondido aqui para testes-->
-    <p>Se precisar quebrar o texto em algum lugar específico como esse, você pode usar a tag &lt;br&gt;.</p>
-    <h2>Emojis e Imagens</h2>
-    <p>Vamos adicionar alguns símbolos especiais:
-        &reg;
-        &copy;
-        &trade;
-        &euro;
-        &pound;
-        &yen;
-        &cent;
-        &Delta;
-        &uparrow;
-        &uarr;
-    </p>
-    <p>Vamos adicionar alguns emojis: <!--Acesse Emojipedia.-->
-        🤓 <!--Podemos copiar e colar o emoji, mas em alguns navegadores não funcionará, então copie o código.-->
-        &#x1F913;
-        &#x1F596;
-    </p>
-    <p>Para pesquisar imagens que podemos usar, vamos usar sites como unsplash, pexels.</p>
-    <h2>Negrito / Destaque</h2>
-    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag b (não semântica, possuindo apenas forma, sem sentido.</p>
-    <p>Nesta frase temos um <b>termo em destaque</b> possuindo semântica e sentido.</p>
-    <h2>Itálico / Ênfase</h2>
-    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag i. (sem semântica)</p>
-    <p>Nesta frase, temos um <em>termo em destaque</em> usando a tag EM. (com semântica)</p>
-    <h2>Texto marcado</h2>
-    <p>Podemos criar também um <mark style="background-color: lime;">texto marcado</mark> usando a tag mark.</p> <!--Dentro da própria tag para alterar parâmetro (sendo css) mudando apenas a cor de apenas um mark. Se precisar fazer em mais de um mark entao criamos no CSS ou acima-->
-    <h2>Texto grande e pequeno</h2>
-    <p>Criando um <big>texto grande</big> e um <small>texto pequeno</small>.</p> <!--porém a tag big não tem sentido mais, usamos o CSS para mudar o tamanho para maior-->
-    <h2>Texto deletado</h2>
-    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
-    <h2>Texto inserido</h2>
-    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
-    <p>Existe tam´bem o <u>sublinado</u> com a tag U (não semântica)</p>
-    <h2>Texto sobrescrito</h2>
-    <p>Para inserir coisas do tipo x<sup>23</sup>+3</p>
-    <h2>Texto subscrito</h2>
-    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
-    <h2>Código-fonte</h2>
-    <p>O comando <code>document.getElementById('testes')</code> é escrito em linguagem Javascript.</p>
-    <pre>
-        <code> <!--SHIFT + TAB PARA VOLTAR O CÓDIGO E APENAS TAB PARA DIREITA.-->
-    num = int(input('Digite um número'))
-    if num % 2 == 0;
-        print(f'O número {num} é PAR')
-    else:
-        print(f'O número {num} é ÍMPAR')
-    print('Fim do programa')
-        </code>
-    </pre>
-    <h2>Citações</h2>
-    <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p> <!--Quando colocamos o Q no lugar de aspas damos sentido à coisa-->
-    <h2>Citações completas</h2>
-    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
-    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
-        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
-    </blockquote>
-    <h2>Abreviações</h2>
-    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
-    <h2>Texto invertido</h2>
-    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
-    <h2>Trabalhando com listas</h2>
-    <p><b>- Listas ordenadas:</b></p>
-    <ol type="A"> <!--Muda-se o type quando quiser personalizar a lista-->
-        <li>Acordar</li>
-        <li>Escovar os dentes</li>
-        <li>Tomar café</li>
-    </ol>
-    <p><b>- Listas não-ordenadas</b></p>
-    <ul type="square">
-        <li>Comprar pão</li>
-        <li>Comprar leite</li>
-        <li>Caminhada matinal</li>
-    </ul>
-    <p><b>- Listas mistas e de definição</b></p>
-    <ol>
-        <li>Antigas</li>
-        <ol type="a">
-            <li>Clipper</li>
-            <li>Visual Basic</li>
+    <main>
+        <h1>Estudando HTML</h1>
+        <hr>
+        <h2>Parágrafos</h2>
+        <p>Você pode escrever um paragráfo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;.
+        </p> <!--Comentário escondido aqui para testes-->
+        <p>Se precisar quebrar o texto em algum lugar específico como esse, você pode usar a tag &lt;br&gt;.</p>
+        <h2>Emojis e Imagens</h2>
+        <p>Vamos adicionar alguns símbolos especiais:
+            &reg;
+            &copy;
+            &trade;
+            &euro;
+            &pound;
+            &yen;
+            &cent;
+            &Delta;
+            &uparrow;
+            &uarr;
+        </p>
+        <p>Vamos adicionar alguns emojis: <!--Acesse Emojipedia.-->
+            🤓 <!--Podemos copiar e colar o emoji, mas em alguns navegadores não funcionará, então copie o código.-->
+            &#x1F913;
+            &#x1F596;
+        </p>
+        <p>Para pesquisar imagens que podemos usar, vamos usar sites como unsplash, pexels.</p>
+        <h2>Negrito / Destaque</h2>
+        <p>Nesta frase temos um <b>termo em negrito</b> usando a tag b (não semântica, possuindo apenas forma, sem sentido.</p>
+        <p>Nesta frase temos um <b>termo em destaque</b> possuindo semântica e sentido.</p>
+        <h2>Itálico / Ênfase</h2>
+        <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag i. (sem semântica)</p>
+        <p>Nesta frase, temos um <em>termo em destaque</em> usando a tag EM. (com semântica)</p>
+        <h2>Texto marcado</h2>
+        <p>Podemos criar também um <mark style="background-color: lime;">texto marcado</mark> usando a tag mark.</p> <!--Dentro da própria tag para alterar parâmetro (sendo css) mudando apenas a cor de apenas um mark. Se precisar fazer em mais de um mark entao criamos no CSS ou acima-->
+        <h2>Texto grande e pequeno</h2>
+        <p>Criando um <big>texto grande</big> e um <small>texto pequeno</small>.</p> <!--porém a tag big não tem sentido mais, usamos o CSS para mudar o tamanho para maior-->
+        <h2>Texto deletado</h2>
+        <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+        <h2>Texto inserido</h2>
+        <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+        <p>Existe tam´bem o <u>sublinado</u> com a tag U (não semântica)</p>
+        <h2>Texto sobrescrito</h2>
+        <p>Para inserir coisas do tipo x<sup>23</sup>+3</p>
+        <h2>Texto subscrito</h2>
+        <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+        <h2>Código-fonte</h2>
+        <p>O comando <code>document.getElementById('testes')</code> é escrito em linguagem Javascript.</p>
+        <pre>
+            <code> <!--SHIFT + TAB PARA VOLTAR O CÓDIGO E APENAS TAB PARA DIREITA.-->
+        num = int(input('Digite um número'))
+        if num % 2 == 0;
+            print(f'O número {num} é PAR')
+        else:
+            print(f'O número {num} é ÍMPAR')
+        print('Fim do programa')
+            </code>
+        </pre>
+        <h2>Citações</h2>
+        <p>Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p> <!--Quando colocamos o Q no lugar de aspas damos sentido à coisa-->
+        <h2>Citações completas</h2>
+        <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+        <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+            A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+        </blockquote>
+        <h2>Abreviações</h2>
+        <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+        <h2>Texto invertido</h2>
+        <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+        <h2>Trabalhando com listas</h2>
+        <p><b>- Listas ordenadas:</b></p>
+        <ol type="A"> <!--Muda-se o type quando quiser personalizar a lista-->
+            <li>Acordar</li>
+            <li>Escovar os dentes</li>
+            <li>Tomar café</li>
         </ol>
-        <li>Novas</li>
-        <ol type="a">
-            <li>PHP</li>
-            <li>Python</li>
-            <li>JavaScript</li>
+        <p><b>- Listas não-ordenadas</b></p>
+        <ul type="square">
+            <li>Comprar pão</li>
+            <li>Comprar leite</li>
+            <li>Caminhada matinal</li>
+        </ul>
+        <p><b>- Listas mistas e de definição</b></p>
+        <ol>
+            <li>Antigas</li>
+            <ol type="a">
+                <li>Clipper</li>
+                <li>Visual Basic</li>
+            </ol>
+            <li>Novas</li>
+            <ol type="a">
+                <li>PHP</li>
+                <li>Python</li>
+                <li>JavaScript</li>
+            </ol>
+            <li>Meus Jogos Favoritos</li>
+                <li>NES</li>
+                <ul type="circle">
+                    <li>Mario Bros</li>
+                    <li>Mario Bros 3</li>
+                    <li>Mario: Lost Levels</li>
+                    <li>Ninja Gaiden</li>
+                </ul>
+                <li>SNES</li>
+                <ul>
+                    <li>Mario</li>
+                    <li>Donkey Kong</li>
+                </ul>
+                <li>PlayStation</li>
+                <ul>
+                    <li>Final Fantasy</li>
+                    <li>Guitar Hero 3</li>
+                </ul>
         </ol>
-        <li>Meus Jogos Favoritos</li>
-            <li>NES</li>
-            <ul type="circle">
-                <li>Mario Bros</li>
-                <li>Mario Bros 3</li>
-                <li>Mario: Lost Levels</li>
-                <li>Ninja Gaiden</li>
-            </ul>
-            <li>SNES</li>
-            <ul>
-                <li>Mario</li>
-                <li>Donkey Kong</li>
-            </ul>
-            <li>PlayStation</li>
-            <ul>
-                <li>Final Fantasy</li>
-                <li>Guitar Hero 3</li>
-            </ul>
-    </ol>
-    <p><b>- Lista de Definição</b></p>
-        <dt>Termo</dt>
-        <dd>Descrição</dd>
-    <h2>Usando Links externos</h2>
-    <p>Link que aponta para outro local.</p>
-    <p>Você pode acessar o meu <a href="https://github.com/vitoriadevalois" target="_blank" rel="external">perfil no GitHub</a>.</p> <!--Usamos o target blank para abrir uma nova aba, assim o usuário não "abandona" seu site-->
-    <h2>Usando links internos</h2>
-    <p>Um link interno fará ligação com uma página dentro do nosso próprio site.</p>
-    <p>Ir para um site incrível sobre <a href="index.html" rel="_self">gatos</a></p> <!--Para voltar para a página, basta criar o mesmo sistema com CTRL Espaço e selecionar esse html. Usando next aqui e previous na anterior-->
-    <h2>Links para Download</h2>
-    <p>Como criar links para baixar algo.</p>
-    <ul>
-        <li><a href="livro/livro ti.pdf" download="livro ti.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
-    </ul>
-    <h2>Imagem Dinâmica</h2>
-    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do navegador.</p>
-
-    <picture>
-        <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Sempre dando uma "folguinha" de 50px-->
-        <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-        <img src="imagens/foto-g.png" alt="Imagem Flexível">
-    </picture>
-    <h2>Reproduzindo áudio</h2>
-    <p>Vamos aprender áudios em HTML 5</p>
-    <audio src="midia/sky.mp3" controls autoplay></audio>
-    <!-- Compatibilidade com MP3 WAV OGG-->
-    <P>Criando mais compatibilidade:</P>
-    <audio>
-        <source src="midia/sky.mp3" type="audio/mpeg">
-        <source src="midia/sky.ogg" type="audio/ogg">
-        <source src="midia/sky.wav" type="audio/wav">
-    </audio>
-    <h2>Colocando um vídeo local</h2>
-    <video src="midia/galaxyvideo.mp4" controls autoplay loop width="500"></video>
-    <!--Para adicionar uma capa use posters=""-->
-    <!--PARA PEGAR UM VÍDEO DE FORA, INCORPORE A PARTIR DO "COMPARTILHAR"-->
-    <h2>Inserindo vídeos do YouTube</h2>
-    <iframe width="560" height="350" src="https://www.youtube.com/embed/4gmrHQa7fEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-    <br>
-    <h2>Estilo CSS inline</h2>
-    <p style="font-family: Arial, Helvetica, sans-serif; color: blueviolet;">Trata-se de uma alteração feita na linha. Tem a desvantagem de que você terá que alterar toda linha uma por uma e isso polui o seu documento.</p>
-    <br>
-    <h2>Cores em CSS</h2>
-    <!--Representação por nomes-->
-    <p style="background-color: blue; color:white;">Exemplos de cores</p>
-    <p>Representação de cores utilizando nomes das cores.</p>
-    <!--Representação por códigos hexadecimais-->
-    <!--Decimal: 0 1 2 3 4 5 6 7 8 9-->
-    <!--Hexadecimal: 0 1 2 3 4 5 6 7 9 A B C D E F-->
-    <p style="background-color: #0000FF; color: #ffffff;">Exemplos de cores</p>
-    <p>Representação de cores utilizando códigos hexadecimais.
-    </p>
-    <p>Decimal: 0 1 2 3 4 5 6 7 8 9</p>
-    <p>Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F</p>
-    <!--Representação por RGB-->
-    <p style="background-color: rgb(0, 0, 255); color:rgb(255, 255, 255);">Exemplos de cores</p>
-    <p>Representação de cores através de RGB.</p>
-    <!--Representação através de HSL-->
-    <p style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de cores</p>
-    <p>Representação de cores através de HSL.</p>
+        <p><b>- Lista de Definição</b></p>
+            <dt>Termo</dt>
+            <dd>Descrição</dd>
+        <h2>Usando Links externos</h2>
+        <p>Link que aponta para outro local.</p>
+        <p>Você pode acessar o meu <a href="https://github.com/vitoriadevalois" target="_blank" rel="external">perfil no GitHub</a>.</p> <!--Usamos o target blank para abrir uma nova aba, assim o usuário não "abandona" seu site-->
+        <h2>Usando links internos</h2>
+        <p>Um link interno fará ligação com uma página dentro do nosso próprio site.</p>
+        <p>Ir para um site incrível sobre <a href="index.html" rel="_self">gatos</a></p> <!--Para voltar para a página, basta criar o mesmo sistema com CTRL Espaço e selecionar esse html. Usando next aqui e previous na anterior-->
+        <h2>Links para Download</h2>
+        <p>Como criar links para baixar algo.</p>
+        <ul>
+            <li><a href="livro/livro ti.pdf" download="livro ti.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
+        </ul>
+        <h2>Imagem Dinâmica</h2>
+        <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do navegador.</p>
+        <picture>
+            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Sempre dando uma "folguinha" de 50px-->
+            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
+            <img src="imagens/foto-g.png" alt="Imagem Flexível">
+        </picture>
+        <h2>Reproduzindo áudio</h2>
+        <p>Vamos aprender áudios em HTML 5</p>
+        <audio src="midia/sky.mp3" controls autoplay></audio>
+        <!-- Compatibilidade com MP3 WAV OGG-->
+        <P>Criando mais compatibilidade:</P>
+        <audio>
+            <source src="midia/sky.mp3" type="audio/mpeg">
+            <source src="midia/sky.ogg" type="audio/ogg">
+            <source src="midia/sky.wav" type="audio/wav">
+        </audio>
+        <h2>Colocando um vídeo local</h2>
+        <video src="midia/galaxyvideo.mp4" controls autoplay loop width="500"></video>
+        <!--Para adicionar uma capa use posters=""-->
+        <!--PARA PEGAR UM VÍDEO DE FORA, INCORPORE A PARTIR DO "COMPARTILHAR"-->
+        <h2>Inserindo vídeos do YouTube</h2>
+        <iframe width="560" height="350" src="https://www.youtube.com/embed/4gmrHQa7fEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <br>
+        <h2>Estilo CSS inline</h2>
+        <p style="font-family: Arial, Helvetica, sans-serif; color: blueviolet;">Trata-se de uma alteração feita na linha. Tem a desvantagem de que você terá que alterar toda linha uma por uma e isso polui o seu documento.</p>
+        <br>
+        <h2>Cores em CSS</h2>
+        <!--Representação por nomes-->
+        <p style="background-color: blue; color:white;">Exemplos de cores</p>
+        <p>Representação de cores utilizando nomes das cores.</p>
+        <!--Representação por códigos hexadecimais-->
+        <!--Decimal: 0 1 2 3 4 5 6 7 8 9-->
+        <!--Hexadecimal: 0 1 2 3 4 5 6 7 9 A B C D E F-->
+        <p style="background-color: #0000FF; color: #ffffff;">Exemplos de cores</p>
+        <p>Representação de cores utilizando códigos hexadecimais.
+        </p>
+        <p>Decimal: 0 1 2 3 4 5 6 7 8 9</p>
+        <p>Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F</p>
+        <!--Representação por RGB-->
+        <p style="background-color: rgb(0, 0, 255); color:rgb(255, 255, 255);">Exemplos de cores</p>
+        <p>Representação de cores através de RGB.</p>
+        <!--Representação através de HSL-->
+        <p style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de cores</p>
+        <p>Representação de cores através de HSL.</p>
+    </main>
 </body>
 </html>
