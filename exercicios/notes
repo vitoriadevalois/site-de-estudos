@@ -1,35 +1,50 @@
-! + Enter = cria automaticamente o doctype html.
+ATALHOS
 
-PARA ENVELOPAR: Ctrl Shift P
+    ! + Enter = cria automaticamente o doctype html.
 
-&lt; elemento &gt;  = mostra o elemento entre < e /> conforme o próprio comando.
+    PARA ENVELOPAR: Ctrl Shift P
+    
+    com alt conseguimos selecionar mais de um elemento e alterar de uma vez
 
-<!--elemento--> = tudo contido como elemento vira comentário.
+ANOTAÇÕES
 
-para copiar da internet uma imagem, copie o endereço a imagem.
+    &lt; elemento &gt;  = mostra o elemento entre < e /> conforme o próprio comando.
 
-favicon - ícone da página
+    <!--elemento--> = tudo contido como elemento vira comentário.
 
-iconarchive - para encontrar ícones e baixar ICO
-favicon.cc -> você desenha seus próprios ícones.
-favicon.io -> texto vira ico, png vira ico, favicom vira ícone.
+    para copiar da internet uma imagem, copie o endereço a imagem.
 
-hierarquia de títulos - <h1> <h2> <h3> <h4> <h5> <h6>
+    favicon - ícone da página
 
-<address> </address> - significa endereço
+    iconarchive - para encontrar ícones e baixar ICO
+    favicon.cc -> você desenha seus próprios ícones.
+    favicon.io -> texto vira ico, png vira ico, favicom vira ícone.
 
-<br> - quebra de texto
+    hierarquia de títulos - <h1> <h2> <h3> <h4> <h5> <h6>
 
-&nbsp; - espaço na linha
+    <address> </address> - significa endereço
 
-com alt conseguimos selecionar mais de um elemento e alterar de uma vez
+    <br> - quebra de texto
 
-<a href="index.html" rel="next"
+    &nbsp; - espaço na linha
 
-para nofollow (não dar o aval e não perpetue) -> rel="nofollow"
+    <a href="index.html" rel="next"
 
-target="_self" -> quando é pra própria página
+    para nofollow (não dar o aval e não perpetue) -> rel="nofollow"
 
-Padrões mais utilizados: .mp4, .webm, .ogg e em vídeo .ogv
+    target="_self" -> quando é pra própria página
 
-https://handbrake.fr -> para converter os vídeos
+    Padrões mais utilizados: .mp4, .webm, .ogg e em vídeo .ogv
+
+    https://handbrake.fr -> para converter os vídeos
+
+JAVASCRIPT
+
+    O javascript serve para desenvolver algumas funcionalidades na página web.
+    Mantemos os comandos dentro de <script> aqui </script>
+
+    alert(seria o nosso pop-up);
+    document.write("para escrever no corpo da página");
+    var = variavel desejada (para juntar duas variaveis utilizamos +)
+    prompt = responsavel por solicitar uma informação ao usuário
+     

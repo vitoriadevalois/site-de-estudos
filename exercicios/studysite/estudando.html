@@ -6,10 +6,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="shortcut icon" href="imagens/book.ico" type="icon">
     <title>Estudando</title>
-    <link rel="stylesheet" href="estiloestudando.css">
+    <link rel="stylesheet" href="style.css">
 </head>
 <body>
     <main>
+        <script src="mycode.js"></script>
         <h1>Estudando HTML</h1>
         <hr>
         <h2>Parágrafos</h2>
@@ -85,13 +86,12 @@
             <li>Tomar café</li>
         </ol>
         <p><b>- Listas não-ordenadas</b></p>
-        <ul type="square">
-            <li>Comprar pão</li>
-            <li>Comprar leite</li>
-            <li>Caminhada matinal</li>
-        </ul>
+            <ul type="square">
+                <li>Comprar pão</li>
+                <li>Comprar leite</li>
+                <li>Caminhada matinal</li>
+            </ul>
         <p><b>- Listas mistas e de definição</b></p>
-        <ol>
             <li>Antigas</li>
             <ol type="a">
                 <li>Clipper</li>
@@ -117,11 +117,10 @@
                     <li>Donkey Kong</li>
                 </ul>
                 <li>PlayStation</li>
-                <ul>
+                <ol>
                     <li>Final Fantasy</li>
                     <li>Guitar Hero 3</li>
-                </ul>
-        </ol>
+                </ol>
         <p><b>- Lista de Definição</b></p>
             <dt>Termo</dt>
             <dd>Descrição</dd>
@@ -134,7 +133,7 @@
         <h2>Links para Download</h2>
         <p>Como criar links para baixar algo.</p>
         <ul>
-            <li><a href="livro/livro ti.pdf" download="livro ti.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
+            <li><a href="midia/htmltags.pdf" download="htmltags.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
         </ul>
         <h2>Imagem Dinâmica</h2>
         <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do navegador.</p>
@@ -158,7 +157,7 @@
         <!--Para adicionar uma capa use posters=""-->
         <!--PARA PEGAR UM VÍDEO DE FORA, INCORPORE A PARTIR DO "COMPARTILHAR"-->
         <h2>Inserindo vídeos do YouTube</h2>
-        <iframe width="560" height="350" src="https://www.youtube.com/embed/4gmrHQa7fEg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+        <iframe width="560" height="350" src="https://www.youtube.com/embed/4gmrHQa7fEg" title="YouTube video player" allowfullscreen></iframe>
         <br>
         <h2>Estilo CSS inline</h2>
         <p style="font-family: Arial, Helvetica, sans-serif; color: blueviolet;">Trata-se de uma alteração feita na linha. Tem a desvantagem de que você terá que alterar toda linha uma por uma e isso polui o seu documento.</p>
@@ -181,6 +180,23 @@
         <!--Representação através de HSL-->
         <p style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">Exemplo de cores</p>
         <p>Representação de cores através de HSL.</p>
+        <br>
+        <h2>Detalhes</h2>
+        É possível criar detalhes que serão ocultos ou exibidos.
+        <details>
+            <summary>Clique na seta para abrir</summary>
+            Essa funcionalidade é nova no HTML5.
+        </details>
+        <h2>Barra de Progresso</h2>
+        Podemos criar uma barra de progresso a partir do minimo e do máximo.
+        <br>
+        <meter min="0" max="100" low="40" high="90" optimum="100" value="90"></meter>
+        <br>
+        <h2>Barra de Carregamento</h2>
+        Podemos criar uma barra barra de carregamento que irá simular um carregamento na página
+        <br>
+        <progress></progress>
+        <br>
     </main>
 </body>
 </html>
