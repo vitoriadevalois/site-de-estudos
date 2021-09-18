@@ -4,13 +4,13 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="shortcut icon" href="imagens/book.ico" type="icon">
+    <link rel="shortcut icon" href="arquivos/imagens/book.ico" type="icon">
     <title>Estudando</title>
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="arquivos/style.css">
 </head>
 <body>
     <main>
-        <script src="mycode.js"></script>
+        <script src="arquivos/mycode.js"></script>
         <h1>Estudando HTML, CSS e JS</h1>
         <hr>
         <h2>Parágrafos</h2>
@@ -129,22 +129,22 @@
         <p>Você pode acessar o meu <a href="https://github.com/vitoriadevalois" target="_blank" rel="external">perfil no GitHub</a>.</p> <!--Usamos o target blank para abrir uma nova aba, assim o usuário não "abandona" seu site-->
         <h2>Usando links internos</h2>
         <p>Um link interno fará ligação com uma página dentro do nosso próprio site.</p>
-        <p>Ir para um site incrível sobre <a href="index.html" rel="_self">gatos</a></p> <!--Para voltar para a página, basta criar o mesmo sistema com CTRL Espaço e selecionar esse html. Usando next aqui e previous na anterior-->
+        <p>Ir para um site incrível sobre <a href="estudando.html" rel="_self">gatos</a></p> <!--Para voltar para a página, basta criar o mesmo sistema com CTRL Espaço e selecionar esse html. Usando next aqui e previous na anterior-->
         <h2>Links para Download</h2>
         <p>Como criar links para baixar algo.</p>
         <ul>
-            <li><a href="midia/htmltags.pdf" download="htmltags.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
+            <li><a href="arquivos/midia/htmltags.pdf" download="htmltags.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
         </ul>
         <h2>Imagem Dinâmica</h2>
         <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do navegador.</p>
         <picture>
-            <source media="(max-width: 750px)" srcset="imagens/foto-p.png" type="image/png"> <!--Sempre dando uma "folguinha" de 50px-->
-            <source media="(max-width: 1050px)" srcset="imagens/foto-m.png" type="image/png">
-            <img src="imagens/foto-g.png" alt="Imagem Flexível">
+            <source media="(max-width: 750px)" srcset="arquivos/imagens/foto-p.png" type="image/png"> <!--Sempre dando uma "folguinha" de 50px-->
+            <source media="(max-width: 1050px)" srcset="arquivos/imagens/foto-m.png" type="image/png">
+            <img src="arquivos/imagens/foto-g.png" alt="Imagem Flexível">
         </picture>
         <h2>Reproduzindo áudio</h2>
         <p>Vamos aprender áudios em HTML 5</p>
-        <audio src="midia/sky.mp3" controls autoplay></audio>
+        <audio src="arquivos/midia/sky.mp3" controls autoplay></audio>
         <!-- Compatibilidade com MP3 WAV OGG-->
         <P>Criando mais compatibilidade:</P>
         <audio>
@@ -153,7 +153,7 @@
             <source src="midia/sky.wav" type="audio/wav">
         </audio>
         <h2>Colocando um vídeo local</h2>
-        <video src="midia/galaxyvideo.mp4" controls autoplay loop width="500"></video>
+        <video src="arquivos/midia/galaxyvideo.mp4" controls autoplay loop width="500"></video>
         <!--Para adicionar uma capa use posters=""-->
         <!--PARA PEGAR UM VÍDEO DE FORA, INCORPORE A PARTIR DO "COMPARTILHAR"-->
         <h2>Inserindo vídeos do YouTube</h2>
