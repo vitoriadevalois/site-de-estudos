@@ -3,14 +3,17 @@
 * {
     font-family: Arial, Helvetica, sans-serif;
     text-align: justify;
+    padding: 0%;
 }
 
+/*Definir o estilo do body*/
 body {
     background-color: white;
     font-size: 15px;
     background-image: linear-gradient(to right, #F2D49B, #F2BB9B, #F28E85);
 }
 
+/*Definir o estilo da main*/
 main {
     background-color: white;
     width: 1000px;
@@ -18,18 +21,25 @@ main {
     margin: auto;
     border-radius: 30px;
     box-shadow: 5px 5px 15px #8a504ab7;
-
 }
 
+/*Definir o estilo do h1*/
 h1 {
     color: #010B40;
     text-align: center;
     text-shadow: 1px 1px 2px #0107278a;
 }
 
+/*Definir o estilo do h2*/
 h2 {
     color: #010B40;
     background-image: linear-gradient(to right, #F2D49B, #F2BB9B, #F28E85);
     padding: 5px;
     border-radius: 10px;
+}
+
+li {
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: justify;
+    padding: 0%;
 }
