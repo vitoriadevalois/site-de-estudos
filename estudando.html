@@ -13,40 +13,40 @@
         <script src="mycode.js"></script>
         <div class="h1">Estudando HTML, CSS e JS</div>
         <hr>
+        <br>
         <div class="h2">Parágrafos</div>
             <p>
                 Você pode escrever um paragráfo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&gt;.
-            </p> <!--Comentário escondido aqui para testes-->
+            </p> <!--Comentário escondido aqui-->
             <p>
                 Para quebrar o texto em algum lugar específico como esse, você pode usar a tag &lt;br&gt;.
-
             <p>
                 Para criar uma identação, basta utilizar <i>text-indent: valor desejado;</i> como nestes parágrafo.
             </p>
         <div class="h2">Emojis e Imagens</div>
-        <p>
-            Vamos adicionar alguns símbolos especiais:
-            &reg;
-            &copy;
-            &trade;
-            &euro;
-            &pound;
-            &yen;
-            &cent;
-            &Delta;
-            &uparrow;
-            &uarr;
-        </p>
-        <p>
-            Vamos adicionar alguns emojis: <!--Acesse Emojipedia.-->
-            🤓 <!--Podemos copiar e colar o emoji, mas em alguns navegadores não funcionará, então copie o código.-->
-            &#x1F913;
-            &#x1F596;
-        </p>
-        <p>
-            Para pesquisar imagens que podemos usar, vamos usar sites como unsplash, pexels.
+            <p>
+                Vamos adicionar alguns símbolos especiais:
+                &reg;
+                &copy;
+                &trade;
+                &euro;
+                &pound;
+                &yen;
+                &cent;
+                &Delta;
+                &uparrow;
+                &uarr;
+            </p>
+            <p>
+                Vamos adicionar alguns emojis: <!--Acesse Emojipedia.-->
+                🤓 <!--Podemos copiar e colar o emoji, mas em alguns navegadores não funcionará, então copie o código.-->
+                &#x1F913;
+                &#x1F596;
+            </p>
+            <p>
+                Para pesquisar imagens que podemos usar, vamos usar sites como unsplash, pexels.
 
-        </p>
+            </p>
 
         <div class="h2">Negrito / Destaque</div>
             <p>
@@ -65,15 +65,20 @@
             </p>
         
         <div class="h2">Texto marcado</div>
-            <p>Podemos criar também um <mark style="background-color: lime;">texto marcado</mark> usando a tag mark.</p> <!--Dentro da própria tag para alterar parâmetro (sendo css) mudando apenas a cor de apenas um mark. Se precisar fazer em mais de um mark entao criamos no CSS ou acima-->
+            <p>
+                Podemos criar também um <mark style="background-color: lime;">texto marcado</mark> usando a tag mark.
+            </p> <!--Dentro da própria tag para alterar parâmetro (sendo css) mudando apenas a cor de apenas um mark. Se precisar fazer em mais de um mark entao criamos no CSS ou acima-->
+
         <div class="h2">Texto grande e pequeno</div>
             <p>
             Criando um <big>texto grande</big> e um <small>texto pequeno</small>.
             </p> <!--porém a tag big não tem sentido mais, usamos o CSS para mudar o tamanho para maior-->
+        
         <div class="h2">Texto deletado</div>
             <p>
                 Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.
             </p>
+
         <div class="h2">Texto inserido</div>
         <p>
             Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.
@@ -93,160 +98,160 @@
         </p>
         
         <div class="h2">Código-fonte</div>
-        <p>
-            O comando <code>document.getElementById('testes')</code> é escrito em linguagem Javascript.
-        </p>
-        <pre>
-            <code> <!--SHIFT + TAB PARA VOLTAR O CÓDIGO E APENAS TAB PARA DIREITA.-->
-        num = int(input('Digite um número'))
-        if num % 2 == 0;
-            print(f'O número {num} é PAR')
-        else:
-            print(f'O número {num} é ÍMPAR')
-        print('Fim do programa')
-            </code>
-        </pre>
+            <p>
+                O comando <code>document.getElementById('testes')</code> é escrito em linguagem Javascript.
+            </p>
+            <pre>
+                <code> <!--SHIFT + TAB PARA VOLTAR O CÓDIGO E APENAS TAB PARA DIREITA.-->
+            num = int(input('Digite um número'))
+            if num % 2 == 0;
+                print(f'O número {num} é PAR')
+            else:
+                print(f'O número {num} é ÍMPAR')
+            print('Fim do programa')
+                </code>
+            </pre>
         
         <div class="h2">Citações</div>
-        <p>
-            Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q>
-        </p> <!--Quando colocamos o Q no lugar de aspas damos sentido à coisa-->
-        
-        <div class="h2">Citações completas</div>
-        <p>
-            Segundo Jeff Noble, no seu livro HTML para Leigos:
-        </p>
-        <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
-            A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
-        </blockquote>
+            <p>
+                Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q>
+            </p> <!--Quando colocamos o Q no lugar de aspas damos sentido à coisa-->
+            
+            <div class="h2">Citações completas</div>
+            <p>
+                Segundo Jeff Noble, no seu livro HTML para Leigos:
+            </p>
+            <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+                A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+            </blockquote>
         
         <div class="h2">Abreviações</div>
-        <p>
-            Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.
-        </p>
+            <p>
+                Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.
+            </p>
         
         <div class="h2">Texto invertido</div>
-        <p>
-            <bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo>
-        </p>
+            <p>
+                <bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo>
+            </p>
         
         <div class="h2">Trabalhando com listas</div>
-        <p>
-            <b>- Listas ordenadas:</b>
-        </p>
+            <p>
+                <b>- Listas ordenadas:</b>
+            </p>
 
-        <ol type="A"> <!--Muda-se o type quando quiser personalizar a lista-->
-            <li>Acordar</li>
-            <li>Escovar os dentes</li>
-            <li>Tomar café</li>
-        </ol>
-        <p>
-            <b>- Listas não-ordenadas</b>
-            <ul type="square">
-                <li>Comprar pão</li>
-                <li>Comprar leite</li>
-                <li>Caminhada matinal</li>
-            </ul>
-        </p>
-        <p>
-            <b>- Listas mistas e de definição</b>
-            <li>Antigas</li>
-            <ol type="a">
-                <li>Clipper</li>
-                <li>Visual Basic</li>
+            <ol type="A"> <!--Muda-se o type quando quiser personalizar a lista-->
+                <li>Acordar</li>
+                <li>Escovar os dentes</li>
+                <li>Tomar café</li>
             </ol>
-            <li>Novas</li>
-            <ol type="a">
-                <li>PHP</li>
-                <li>Python</li>
-                <li>JavaScript</li>
-            </ol>
-            <li>Meus Jogos Favoritos</li>
-                <li>NES</li>
-                <ul type="circle">
-                    <li>Mario Bros</li>
-                    <li>Mario Bros 3</li>
-                    <li>Mario: Lost Levels</li>
-                    <li>Ninja Gaiden</li>
+            <p>
+                <b>- Listas não-ordenadas</b>
+                <ul type="square">
+                    <li>Comprar pão</li>
+                    <li>Comprar leite</li>
+                    <li>Caminhada matinal</li>
                 </ul>
-                <li>SNES</li>
-                <ul>
-                    <li>Mario</li>
-                    <li>Donkey Kong</li>
-                </ul>
-                <li>PlayStation</li>
-                    <ol>
-                        <li>Final Fantasy</li>
-                        <li>Guitar Hero 3</li>
-                    </ol>
-        </p>
-        <p>
-            <b>- Lista de Definição</b>
-            <dt>Termo</dt>
-            <dd>Descrição</dd>
-        </p>
+            </p>
+            <p>
+                <b>- Listas mistas e de definição</b>
+                <li>Antigas</li>
+                <ol type="a">
+                    <li>Clipper</li>
+                    <li>Visual Basic</li>
+                </ol>
+                <li>Novas</li>
+                <ol type="a">
+                    <li>PHP</li>
+                    <li>Python</li>
+                    <li>JavaScript</li>
+                </ol>
+                <li>Meus Jogos Favoritos</li>
+                    <li>NES</li>
+                    <ul type="circle">
+                        <li>Mario Bros</li>
+                        <li>Mario Bros 3</li>
+                        <li>Mario: Lost Levels</li>
+                        <li>Ninja Gaiden</li>
+                    </ul>
+                    <li>SNES</li>
+                    <ul>
+                        <li>Mario</li>
+                        <li>Donkey Kong</li>
+                    </ul>
+                    <li>PlayStation</li>
+                        <ol>
+                            <li>Final Fantasy</li>
+                            <li>Guitar Hero 3</li>
+                        </ol>
+            </p>
+            <p>
+                <b>- Lista de Definição</b>
+                <dt>Termo</dt>
+                <dd>Descrição</dd>
+            </p>
 
         <div class="h2">Usando Links externos</div>
-        <p>
-            Link que aponta para outro local.
-        </p>
-        <p>
-            Você pode acessar o meu <a href="https://github.com/vitoriadevalois" target="_blank" rel="external">perfil no GitHub</a>.
-        </p> <!--Usamos o target blank para abrir uma nova aba, assim o usuário não "abandona" seu site-->
-        
+            <p>
+                Link que aponta para outro local.
+            </p>
+            <p>
+                Você pode acessar o meu <a href="https://github.com/vitoriadevalois" target="_blank" rel="external">perfil no GitHub</a>.
+            </p> <!--Usamos o target blank para abrir uma nova aba, assim o usuário não "abandona" seu site-->
+            
         <div class="h2">Usando links internos</div>
-        <p>
-            Um link interno fará ligação com uma página dentro do nosso próprio site.
-        </p>
-        <p>
-            Ir para um site incrível sobre <a href="estudando.html" rel="_self">gatos</a>
-        </p> <!--Para voltar para a página, basta criar o mesmo sistema com CTRL Espaço e selecionar esse html. Usando next aqui e previous na anterior-->
+            <p>
+                Um link interno fará ligação com uma página dentro do nosso próprio site.
+            </p>
+            <p>
+                Ir para um site incrível sobre <a href="estudando.html" rel="_self">gatos</a>
+            </p> <!--Para voltar para a página, basta criar o mesmo sistema com CTRL Espaço e selecionar esse html. Usando next aqui e previous na anterior-->
 
         <div class="h2">Links para Download</div>
-        <p>
-            Como criar links para baixar algo.
-        </p>
-        <ul>
-            <li><a href="arquivos/midia/htmltags.pdf" download="htmltags.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
-        </ul>
+            <p>
+                Como criar links para baixar algo.
+            </p>
+            <ul>
+                <li><a href="arquivos/midia/htmltags.pdf" download="htmltags.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
+            </ul>
 
         <div class="h2">Imagem Dinâmica</div>
-        <p>
-            Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do navegador.
-        </p>
-        <picture>
-            <source media="(max-width: 750px)" srcset="arquivos/imagens/foto-p.png" type="image/png"> <!--Sempre dando uma "folguinha" de 50px-->
-            <source media="(max-width: 1050px)" srcset="arquivos/imagens/foto-m.png" type="image/png">
-            <img src="arquivos/imagens/foto-g.png" alt="Imagem Flexível">
-        </picture>
+            <p>
+                Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do navegador.
+            </p>
+            <picture>
+                <source media="(max-width: 750px)" srcset="arquivos/imagens/foto-p.png" type="image/png"> <!--Sempre dando uma "folguinha" de 50px-->
+                <source media="(max-width: 1050px)" srcset="arquivos/imagens/foto-m.png" type="image/png">
+                <img src="arquivos/imagens/foto-g.png" alt="Imagem Flexível">
+            </picture>
 
         <div class="h2">Reproduzindo áudio</div>
             <p>
                 Vamos aprender áudios em HTML 5
             </p>
-        <audio src="arquivos/midia/sky.mp3" controls autoplay></audio>
-        <!-- Compatibilidade com MP3 WAV OGG-->
-        <p>
-            Criando mais compatibilidade:
-        </p>
-        <audio>
-            <source src="midia/sky.mp3" type="audio/mpeg">
-            <source src="midia/sky.ogg" type="audio/ogg">
-            <source src="midia/sky.wav" type="audio/wav">
-        </audio>
+            <audio src="arquivos/midia/sky.mp3" controls autoplay></audio>
+            <!-- Compatibilidade com MP3 WAV OGG-->
+            <p>
+                Criando mais compatibilidade:
+            </p>
+            <audio>
+                <source src="midia/sky.mp3" type="audio/mpeg">
+                <source src="midia/sky.ogg" type="audio/ogg">
+                <source src="midia/sky.wav" type="audio/wav">
+            </audio>
 
         <div class="h2">Colocando um vídeo local</div>
-        <br>
-        <video src="arquivos/midia/galaxyvideo.mp4" controls autoplay loop width="500"></video>
-        <!--Para adicionar uma capa use posters=""-->
-        <!--PARA PEGAR UM VÍDEO DE FORA, INCORPORE A PARTIR DO "COMPARTILHAR"-->
+            <br>
+            <video src="arquivos/midia/galaxyvideo.mp4" controls autoplay loop width="500"></video>
+            <!--Para adicionar uma capa use posters=""-->
+            <!--PARA PEGAR UM VÍDEO DE FORA, INCORPORE A PARTIR DO "COMPARTILHAR"-->
 
         <div class="h2">Inserindo vídeos do YouTube</div>
         <br>
         <iframe width="560" height="350" src="https://www.youtube.com/embed/4gmrHQa7fEg" title="YouTube video player" allowfullscreen></iframe>
         <br>
         <br>
-        
+
         <hr>
         <div class="h1">Estudando CSS</div>
         <hr>
@@ -258,78 +263,81 @@
         <br>
 
         <div class="h2">Cores em CSS</div>
-        <!--Representação por nomes-->
-        <p style="background-color: blue; color:white;">
-            Exemplos de cores
-        </p>
-        <p>
-            Representação de cores utilizando nomes das cores.
-        </p>
-        <!--Representação por códigos hexadecimais-->
-        <!--Decimal: 0 1 2 3 4 5 6 7 8 9-->
-        <!--Hexadecimal: 0 1 2 3 4 5 6 7 9 A B C D E F-->
-        <p style="background-color: #0000FF; color: #ffffff;">
-            Exemplos de cores
-        </p>
-        <p>
-            Representação de cores utilizando códigos hexadecimais.
-        </p>
-        <p>
-            Decimal: 0 1 2 3 4 5 6 7 8 9
-        </p>
-        <p>
-            Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F
-        </p>
-        <!--Representação por RGB-->
-        <p style="background-color: rgb(0, 0, 255); color:rgb(255, 255, 255);">
-            Exemplos de cores
-        </p>
-        <p>
-            Representação de cores através de RGB.
-        </p>
-        <!--Representação através de HSL-->
-        <p style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">
-            Exemplo de cores
-        </p>
-        <p>
-            Representação de cores através de HSL.
-        </p>
-        <br>
+            <!--Representação por nomes-->
+            <p style="background-color: blue; color:white;">
+                Exemplos de cores
+            </p>
+            <p>
+                Representação de cores utilizando nomes das cores.
+            </p>
+            <!--Representação por códigos hexadecimais-->
+            <!--Decimal: 0 1 2 3 4 5 6 7 8 9-->
+            <!--Hexadecimal: 0 1 2 3 4 5 6 7 9 A B C D E F-->
+            <p style="background-color: #0000FF; color: #ffffff;">
+                Exemplos de cores
+            </p>
+            <p>
+                Representação de cores utilizando códigos hexadecimais.
+            </p>
+            <p>
+                Decimal: 0 1 2 3 4 5 6 7 8 9
+            </p>
+            <p>
+                Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+            </p>
+            <!--Representação por RGB-->
+            <p style="background-color: rgb(0, 0, 255); color:rgb(255, 255, 255);">
+                Exemplos de cores
+            </p>
+            <p>
+                Representação de cores através de RGB.
+            </p>
+            <!--Representação através de HSL-->
+            <p style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">
+                Exemplo de cores
+            </p>
+            <p>
+                Representação de cores através de HSL.
+            </p>
+            <br>
 
         <div class="h2">Detalhes</div>
-        <p>
-        É possível criar detalhes que serão ocultos ou exibidos.
-            <details>
-                <summary>Clique na seta para abrir</summary>
-                Essa funcionalidade é nova no HTML5.
-            </details>
-        </p>
+            <p>
+            É possível criar detalhes que serão ocultos ou exibidos.
+                <details>
+                    <summary>
+                        Clique na seta para abrir.
+                    </summary>
+                    Essa funcionalidade é nova no HTML5.
+                </details>
+            </p>
 
         <div class="h2">Barra de Progresso</div>
-        <p>
-        Podemos criar uma barra de progresso a partir do minimo e do máximo.
-        <br>
-        <meter min="0" max="100" low="40" high="90" optimum="100" value="90"></meter>
-        </p>
-        <br>
+            <p>
+            Podemos criar uma barra de progresso a partir do minimo e do máximo.
+            <br>
+            <meter min="0" max="100" low="40" high="90" optimum="100" value="90"></meter>
+            </p>
+            <br>
 
         <div class="h2">Barra de Carregamento</div>
-        <p>
-            Podemos criar uma barra barra de carregamento que irá simular um carregamento na página
-        <br>
-            <progress></progress>
-        </p>
+            <p>
+                Podemos criar uma barra barra de carregamento que irá simular um carregamento na página
+            <br>
+                <progress></progress>
+            </p>
 
         <div class="h2"> Famílias de fonte com CSS </div>
             <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate veritatis eveniet ab ut inventore quidem est blanditiis officiis tenetur vero. Dolorum, reprehenderit? Temporibus veritatis consectetur accusamus earum consequuntur vitae laborum.
             </p>
         <br>
         <hr>
+        
         <div class="h1">Estudando JavaScript</div>
         <hr>
         <div class="h2">JavaScript</div>
             <p>
-                Lorem ipsum dolor sit, amet consectetur adipisicing elit. Assumenda suscipit velit, fuga harum vitae veritatis magni corrupti culpa aut molestiae facere accusantium, sint nemo mollitia enim repellendus consectetur quaerat non.
+                JavaScript é uma linguagem de programação interpretada estruturada, de script em alto nível com tipagem dinâmica fraca e multiparadigma. Juntamente com HTML e CSS, o JavaScript é uma das três principais tecnologias da World Wide Web.
             </p>
     </main>
 </body>

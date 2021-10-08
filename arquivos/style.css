@@ -44,6 +44,7 @@ main {
 
 /*formatação do estilo do texto contido em cada tópico e tipos de listas*/
 p, li, ul {
+    padding: 10px;
     font-size: medium;
     text-indent: 30px; /*define a identação do texto*/
     line-height: 1.5; /*define o espaçamento entre linhas*/
