@@ -27,7 +27,8 @@ main {
 /*formatação do estilo do titulo*/
 .h1 {
     color: #010B40;
-    text-align: center; 
+    text-align: center;
+    padding: 10px;
     text-shadow: 1px 1px 2px #0107278a;
     font-size: xx-large;
 }
