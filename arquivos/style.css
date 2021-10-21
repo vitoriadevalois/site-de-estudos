@@ -24,6 +24,12 @@ main {
     box-shadow: 5px 5px 15px #8a504ab7; /*define a sombra de determinada caixa*/
 }
 
+code {
+    background-color: #eee;
+    border-radius: 3px;
+    font-family: courier, monospace;
+}
+
 /*formatação do estilo do titulo*/
 .h1 {
     color: #010B40;
