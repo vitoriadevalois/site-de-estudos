@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+/*formatação geral*/
+* {
+    font-family: Arial, Helvetica, sans-serif; /*define a fonte da letra*/
+    text-align: justify; /*define o alinhamento */
+    padding: 0px; /*define o distanciamento entre o conteúdo de um elemento e as suas bordas*/
+    margin: 0px;
+}
+
+/*Definir o estilo do body*/
+body {
+    background-color: #1B1D20; /*define a imagem de fundo do container*/
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+/*formatação do bloco conteudo*/
+.container  {
+    background-color: white;
+    padding: 20px;
+    margin-top: 20px; /* define a margem */
+    border-radius: 5px; /*define as bordas arredondadas*/
+    box-shadow: 5px 5px 15px #8a504ab7; /*define a sombra de determinada caixa*/
+    margin-bottom: 20px;
+    max-width: 800px;;
+}
+
+/*formatação do estilo do titulo*/
+.h1 {
+    background-color: #f1f1f1;
+    color: #010B40;
+    text-align: center;
+    padding: 10px;
+    text-shadow: 1px 1px 2px #0107278a;
+    font-size: 30px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+    border-radius: 50px;
+}
+
+/*formatação do estilo dos tópicos*/
+.h2 {
+    color: #010B40;
+    background-color: #e0e0e0;
+    padding: 10px;
+    border-radius: 10px;
+    font-size: 20px;
+    font-weight: bold; /*define a espessura da fonte*/
+}
+
+.conteudo {
+    padding: 10px;
+    font-size: medium;
+    text-indent: 10px; /*define a identação do texto*/
+    line-height: 1.5; /*define o espaçamento entre linhas*/
+}

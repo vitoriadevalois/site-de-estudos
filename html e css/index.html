@@ -1,0 +1,250 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Site de Estudos</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <main>
+        <div class="container">
+            <div class="h1">Estudando HTML, CSS e JS</div>
+            <div class="h2">Parágrafos</div>
+                <div class="conteudo">
+                    <p>Você pode escrever um paragráfo de qualquer jeito. Basta colocar tudo no meio do par de tags &lt;p&gt; e &lt;/p&g.</p> <!--Comentário escondido aqui-->
+                    <p>Para quebrar o texto em algum lugar específico como esse, você pode usar a tag &lt;br&gt;.</p>
+                    <p>Para criar uma identação, basta utilizar <i>text-indent: valor desejado;</i> como nestes parágrafo.</p>
+                </div>
+                <div class="h2">Emojis e Imagens</div>
+                <div class="conteudo">
+                    <p>Vamos adicionar alguns símbolos especiais:
+                        &reg;
+                        &copy;
+                        &trade;
+                        &euro;
+                        &pound;
+                        &yen;
+                        &cent;
+                        &Delta;
+                        &uparrow;
+                        &uarr;
+                    </p> 
+                    <p>Vamos adicionar alguns emojis: <!--Acesse Emojipedia.-->
+                        🤓 <!--Podemos copiar e colar o emoji, mas em alguns navegadores não funcionará, então copie o código.-->
+                        &#x1F913;
+                        &#x1F596;</p>
+                    <p>Para pesquisar imagens que podemos usar, vamos usar sites como unsplash, pexels.</p>
+                </div>
+                <div class="h2">Negrito / Destaque</div>
+                <div class="conteudo">
+                    <p>Nesta frase temos um <b>termo em negrito</b> usando a tag b (não semântica, possuindo apenas forma, sem sentido.</p>
+                    <p>Nesta frase temos um <b>termo em destaque</b> possuindo semântica e sentido.</p>
+                </div>
+                <div class="h2">Itálico / Ênfase</div>
+                <div class="conteudo">
+                    <p>Nesta frase, temos um <i>termo em itálico</i> usando a tag i. (sem semântica)</p>
+                    <p>Nesta frase, temos um <em>termo em destaque</em> usando a tag EM. (com semântica)</p>
+                </div>
+                <div class="h2">Texto marcado</div>
+                <div class="conteudo">
+                    <p>Podemos criar também um <mark style="background-color: lime;">texto marcado</mark> usando a tag mark.</p> <!--Dentro da própria tag para alterar parâmetro (sendo css) mudando apenas a cor de apenas um mark. Se precisar fazer em mais de um mark entao criamos no CSS ou acima-->
+                </div>
+                <div class="h2">Texto grande e pequeno</div>
+                <div class="conteudo">
+                    <p>Criando um <big>texto grande</big> e um <small>texto pequeno</small>.</p> <!--porém a tag big não tem sentido mais, usamos o CSS para mudar o tamanho para maior-->
+                </div>
+                <div class="h2">Texto deletado</div>
+                <div class="conteudo">
+                    <p>Podemos marcar um <del>texto como excluído</del> para indicar que ele deve ser lido, mas não considerado.</p>
+                </div>
+                <div class="h2">Texto inserido</div>
+                <div class="conteudo">
+                    <p>Podemos marcar um <ins>texto como inserido</ins> para dar uma ênfase e indicar que ele foi adicionado depois.</p>
+                    <p>Existe também o <u>sublinado</u> com a tag U (não semântica)</p>
+                </div>
+                <div class="h2">Texto sobrescrito</div>
+                <div class="conteudo">
+                    <p>Para inserir coisas do tipo x<sup>23</sup>+3</p>
+                </div>
+                <div class="h2">Texto subscrito</div>
+                <div class="conteudo">
+                    <p>Para inserir coisas do tipo H<sub>2</sub>0</p>
+                </div>
+                <div class="h2">Formatação de texto como código</div>
+                <div class="conteudo">
+                    <p>Para formatação de textos como <code>código</code>, utilizamos <code> < code > < / code ></code></p>
+                </div>
+                <div class="h2">Citações</div>
+                <div class="conteudo">
+                    <p>Para citações em HTML, utilizamos os parametros <code>< q > < / q > </q></code>
+                        <br>
+                        Como diria o pai de um amigo: <q>o computador é um burro muito rápido.</q></p>
+                </div>
+                <div class="h2">Citações completas</div>
+                <div class="conteudo">
+                    <p>Segundo Jeff Noble, no seu livro HTML para Leigos:</p>
+                    <blockquote cite="https://books.google.com.br/books/about/HTML_XHTML_e_CSS_Para_Leigos.html?id=E8ZtDwAAQBAJ&redir_esc=y">
+                        A diferença entre elementos inline e um bloco de texto é importante. Os elementos HTML neste capítulo descrevem os blocos de texto.
+                    </blockquote>
+                </div>
+                <div class="h2">Abreviações</div>
+                <div class="conteudo">
+                    <p>Estou estudando <abbr title="HyperText Markup Language">HTML</abbr> e <abbr title="Cascading Style Sheets">CSS</abbr>. Estou adorando.</p>
+                </div>
+                <div class="h2">Texto invertido</div>
+                <div class="conteudo">
+                    <p><bdo dir="rtl">Estou aprendendo a criar coisas em HTML.</bdo></p>
+                </div>
+                <div class="h2">Trabalhando com listas</div>
+                <div class="conteudo">
+                    <p><b>Listas sem ordem (ul = unordered list)</b></p>
+                        <ul>
+                            <li>O Senhor dos Anéis</li>
+                            <li>O Hobbit</li>
+                            <li>A Guerra dos Tronos</li>
+                        </ul>
+                        <br>
+                        <p><b>Listas dentro de lista (ul = unordered list)</b></p>
+                        <ul>
+                            <li>O Senhor dos Anéis</li>
+                                <ul>
+                                    <li>A Sociedade do Anel</li>
+                                </ul>
+                            <li>O Hobbit</li>
+                            <li>A Guerra dos Tronos</li>
+                        </ul>
+                        <br>
+                        <p><b>Listas com ordem (ol = ordered list)</b></p>
+                        <ol>
+                            <li>O Senhor dos Anéis</li>
+                            <li>O Hobbit</li>
+                            <li>A Guerra dos Tronos</li>
+                        </ol>
+                        <br>
+                        <p><b>Listas de definição (description list)</b></p>
+                        <dt>Quais os meios de pagamento?</dt>
+                        <dd>Dinheiro e cartão</dd>
+                </div>
+                <div class="h2">Usando Links externos</div>
+                <div class="conteudo">
+                    <p>Link que aponta para outro local.</p>
+                    <p>Você pode acessar o meu <a href="https://github.com/vitoriadevalois" target="_blank" rel="external">perfil no GitHub</a>.</p> <!--Usamos o target blank para abrir uma nova aba, assim o usuário não "abandona" seu site-->
+                </div>
+                <div class="h2">Usando links internos</div>
+                <div class="conteudo">
+                    <p>Link que aponta para outro local interno do arquivo.</p>
+                    <p>Ir para um <a href="/" rel="_self">site secreto</a></a> interno 🕵🏻‍♀️</p> <!--Criar um diretório com vídeo secreto-->
+                </div>
+                <div class="h2">Links para Download</div>
+                <div class="conteudo">
+                    <p>Como criar links para baixar algo.</p>
+                    <ul>
+                        <li><a href="arquivos/midia/htmltags.pdf" download="htmltags.pdf" type="application/pdf">Baixar o Livro em PDF</a></li>
+                    </ul>
+                </div>
+                <div class="h2">Imagem Dinâmica</div>
+                <div class="conteudo">
+                    <p>Tente abrir esse site em vários dispositivos diferentes ou simplesmente diminua e aumente o tamanho do navegador.</p>
+                    <picture>
+                        <source media="(max-width: 750px)" srcset="/imagens/foto-p.png" type="image/png"> <!--Sempre dando uma "folguinha" de 50px-->
+                        <source media="(max-width: 850px)" srcset="/imagens/foto-m.png" type="image/png">
+                        <img src="/arquivos/imagens/foto-g.png" alt="Imagem Flexível">
+                    </picture> <!--ALTERAR TAMANHO DA IMAGEM PARA 850-->
+                </div>
+                <div class="h2">Reproduzindo áudio</div>
+                <div class="conteudo">
+                    <p>Vamos aprender áudios em HTML 5</p>
+                    <audio src="arquivos/midia/sky.mp3" controls autoplay></audio>
+                    <!-- Compatibilidade com MP3 WAV OGG-->
+                    <p>
+                    Criando mais compatibilidade:
+                    </p>
+                    <audio>
+                        <source src="midia/sky.mp3" type="audio/mpeg">
+                        <source src="midia/sky.ogg" type="audio/ogg">
+                        <source src="midia/sky.wav" type="audio/wav">
+                    </audio>
+                </div>
+                <div class="h2">Colocando um vídeo local</div>
+                <div class="conteudo">
+                <video src="/arquivos/midia/galaxyvideo.mp4" controls autoplay loop width="500"></video> <!--Para adicionar uma capa use posters=""--> <!--PARA PEGAR UM VÍDEO DE FORA, INCORPORE A PARTIR DO "COMPARTILHAR"-->
+                </div>
+                <div class="h2">Inserindo vídeos do YouTube</div>
+                <div class="conteudo">
+                    <iframe width="560" height="350" src="https://www.youtube.com/embed/4gmrHQa7fEg" title="YouTube video player" allowfullscreen></iframe>
+                </div>
+                <div class="h1">CSS</div>
+                <div class="h2">Estilo CSS inline</div>
+                <div class="conteudo">
+                    <p style="font-family: Arial, Helvetica, sans-serif; color: blueviolet;">
+                        Trata-se de uma alteração feita na linha. Tem a desvantagem de que você terá que alterar toda linha uma por uma e isso polui o seu documento.
+                    </p>
+                </div>
+                <div class="h2">Cores em CSS</div>
+                <div class="conteudo">
+                    <!--Representação por nomes-->
+                    <p style="background-color: blue; color:white;">
+                        Exemplos de cores
+                    </p>
+                    <p>
+                        Representação de cores utilizando nomes das cores.
+                    </p>
+                    <!--Representação por códigos hexadecimais-->
+                    <!--Decimal: 0 1 2 3 4 5 6 7 8 9-->
+                    <!--Hexadecimal: 0 1 2 3 4 5 6 7 9 A B C D E F-->
+                    <p style="background-color: #0000FF; color: #ffffff;">
+                        Exemplos de cores
+                    </p>
+                    <p>
+                        Representação de cores utilizando códigos hexadecimais.
+                    </p>
+                    <p>
+                        Decimal: 0 1 2 3 4 5 6 7 8 9
+                    </p>
+                    <p>
+                        Hexadecimal: 0 1 2 3 4 5 6 7 8 9 A B C D E F
+                    </p>
+                    <!--Representação por RGB-->
+                    <p style="background-color: rgb(0, 0, 255); color:rgb(255, 255, 255);">
+                        Exemplos de cores
+                    </p>
+                    <p>
+                        Representação de cores através de RGB.
+                    </p>
+                    <!--Representação através de HSL-->
+                    <p style="background-color: hsl(240, 100%, 50%); color: hsl(0, 0%, 100%);">
+                        Exemplo de cores
+                    </p>
+                    <p>
+                        Representação de cores através de HSL.
+                    </p>
+                </div>
+                <div class="h2">Detalhes</div>
+                <div class="conteudo">
+                    <p>
+                        É possível criar detalhes que serão ocultos ou exibidos.
+                            <details>
+                                <summary>
+                                    Clique na seta para abrir.
+                                </summary>
+                                Essa funcionalidade é nova no HTML5.
+                            </details>
+                        </p>
+                </div>
+                <div class="h2">Barra de Progresso</div>
+                <div class="conteudo">
+                    <p>Podemos criar uma barra de progresso a partir do minimo e do máximo.
+                    <meter min="0" max="100" low="40" high="90" optimum="100" value="90"></meter></p>
+                </div>
+                <div class="h2">Barra de Carregamento</div>
+                <div class="conteudo">
+                    <p>Podemos criar uma barra barra de carregamento que irá simular um carregamento na página</p>
+                    <progress></progress>
+                </div>
+        </div>
+    </main>
+</body>
+</html>
