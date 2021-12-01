@@ -22,7 +22,7 @@ body {
     padding: 20px;
     margin-top: 20px; /* define a margem */
     border-radius: 5px; /*define as bordas arredondadas*/
-    box-shadow: 5px 5px 15px #8a504ab7; /*define a sombra de determinada caixa*/
+    box-shadow: 5px 5px 15px rgba(255, 255, 255, 0.11); /*define a sombra de determinada caixa*/
     margin-bottom: 20px;
     max-width: 800px;;
 }
